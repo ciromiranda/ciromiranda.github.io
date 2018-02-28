@@ -1,9 +1,15 @@
-.banner {
-    background: url(../img/ciromiranda_ny.jpg) fixed no-repeat;
-    background-position: 40% 30%;
-    background-size: cover;
+@media (min-width: 768px) {
+    body {
+        background: url(../img/ciromiranda_ny.jpg) fixed no-repeat;
+        background-position: 40% 30%;
+        background-size: cover;
+    }
 }
 
 .shadow {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+}
+
+.opacity {
+    opacity: 0.85;
 }
